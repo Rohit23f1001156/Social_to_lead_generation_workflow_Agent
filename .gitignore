@@ -1,0 +1,20 @@
+# Environments
+.venv/
+env/
+venv/
+
+# Secrets (CRITICAL)
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS Files
+.DS_Store
+
+# Personal Docs
+project_code_breakdown.txt
+theoretical_interview_questions.txt

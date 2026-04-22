@@ -1,0 +1,8 @@
+langchain
+langgraph
+langchain-google-genai
+faiss-cpu
+streamlit
+python-dotenv
+requests
+google-generativeai
