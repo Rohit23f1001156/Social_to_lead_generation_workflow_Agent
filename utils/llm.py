@@ -27,7 +27,7 @@ def get_llm_response(user_input: str) -> str:
 
     try:
         llm = ChatGoogleGenerativeAI(
-            model="gemini-2.5-flash-lite",
+            model="gemini-3-flash-preview",
             temperature=0.7, 
             google_api_key=api_key
         )
@@ -47,7 +47,7 @@ def detect_intent(user_input: str) -> str:
 
     try:
         llm = ChatGoogleGenerativeAI(
-            model="gemini-2.5-flash-lite",
+            model="gemini-3-flash-preview",
             temperature=0.0,
             google_api_key=api_key
         )
@@ -108,7 +108,7 @@ def rag_response(user_input: str, context: str) -> str:
 
     try:
         llm = ChatGoogleGenerativeAI(
-            model="gemini-2.5-flash-lite",
+            model="gemini-3-flash-preview",
             temperature=0.0,
             google_api_key=api_key
         )
@@ -145,7 +145,7 @@ def validate_lead_data(user_input: str, expected_field: str) -> str:
 
     try:
         llm = ChatGoogleGenerativeAI(
-            model="gemini-2.5-flash-lite", 
+            model="gemini-3-flash-preview", 
             temperature=0.0, 
             google_api_key=api_key
         )
