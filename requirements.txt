@@ -6,3 +6,4 @@ streamlit
 python-dotenv
 requests
 google-generativeai
+langchain-community
