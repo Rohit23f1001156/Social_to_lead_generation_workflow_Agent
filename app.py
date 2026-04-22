@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 st.title("🚀 AutoStream Lead Agent")
-st.caption("Powered by LangGraph & Gemini 2.5 Flash")
+st.caption("Powered by LangGraph & Gemini")
 
 # 2. Initialize Session State for Chat History
 if "messages" not in st.session_state:
